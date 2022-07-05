@@ -1,0 +1,135 @@
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+#content {
+  min-height: 70vh;
+}
+
+.form-control {
+  margin: 10px 20px;
+}
+
+.state-select {
+  background: white;
+  width: 100px;
+  height: 30px;
+
+  > div {
+    height: 30px;
+  }
+}
+
+.float-right {
+  float: right;
+}
+
+.action-util {
+  justify-content: space-between;
+}
+
+#vertical {
+  .status-chip {
+    margin-left: 5px;
+    width: 30px;
+    height: 10px;
+  }
+
+  .task-form {
+    padding: 10px;
+  }
+
+  .board {
+    margin-top: 10px;
+    min-width: 800px;
+    overflow-y: auto;
+    padding: 10px;
+
+    .task-board-header {
+      padding: 10px;
+      color: #222;
+      width: 100%;
+      box-shadow: 0 3px 5px #ccc;
+
+      .board-header-appbar {
+        background: white;
+        width: 100%;
+        max-width: 85vw;
+
+        .btn-add {
+          float: right;
+          border-radius: 50%;
+          padding: 0 !important;
+          overflow: hidden;
+          min-height: 60px;
+          border-width: thick;
+          font-size: 20px;
+        }
+      }
+
+    }
+
+    .task-board-item {
+      min-height: 80vh;
+      border-radius: 5px;
+      background: rgb(244, 247, 254);
+
+      > .task {
+        margin: 15px 5px;
+      }
+
+      .task-board-item-header {
+        background: white;
+        padding: 10px;
+        color: #222;
+      }
+
+      .task {
+        h6 {
+          color: white;
+        }
+
+        p {
+          color: #DDF;
+        }
+
+        button {
+          background: white;
+
+          p {
+            color: black;
+          }
+        }
+      }
+
+      .bg-gray {
+        background: #777;
+      }
+
+      .bg-blue {
+        background: #5272FA;
+      }
+
+      .bg-black {
+        background: black;
+      }
+
+      button:hover {
+        background: white;
+        color: #222;
+      }
+    }
+  }
+}
+
+#footer {
+  width: 100%;
+  background: rgb(244, 247, 254);
+  padding: 50px;
+  text-align: center;
+}
